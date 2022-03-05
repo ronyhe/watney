@@ -1,4 +1,11 @@
 {
     "name": "watney",
-    "packageManager": "yarn@3.2.0"
+    "scripts": {
+        "lint": "yarn run eslint src/ statics/ test/",
+        "lint:fix": "yarn run lint --fix"
+    },
+    "packageManager": "yarn@3.2.0",
+    "devDependencies": {
+        "eslint": "^8.10.0"
+    }
 }
