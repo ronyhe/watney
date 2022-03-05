@@ -8,22 +8,10 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "plugins": ["prettier"],
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "semi": [
-            "error",
-            "never"
-        ]
+        "no-extra-semi": "off",
+        "no-mixed-spaces-and-tabs": "off",
+        "prettier/prettier": "error"
     }
 }

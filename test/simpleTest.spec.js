@@ -1,1 +1,1 @@
-import {plus} from '../src/main'
+import { plus } from '../src/main'
