@@ -2,7 +2,8 @@
     "name": "watney",
     "scripts": {
         "lint": "yarn run eslint src/ statics/ test/",
-        "lint:fix": "yarn run lint --fix"
+        "lint:fix": "yarn run lint --fix",
+        "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
     },
     "packageManager": "yarn@3.2.0",
     "devDependencies": {
