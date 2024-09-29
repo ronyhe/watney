@@ -22,7 +22,9 @@
     "#comps/*": "./src/components/*.tsx",
     "#logic/*": "./src/logic/*.ts",
     "#test": "./test/tools/test.ts",
-    "#render": "./test/tools/render.ts"
+    "#render": "./test/tools/render.ts",
+    "#mui/*": "@mui/material/*",
+    "#mui-icons/*": "@mui/icons-material/*"
   },
   "@parcel/resolver-default": {
     "packageExports": true

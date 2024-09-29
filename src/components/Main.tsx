@@ -1,6 +1,9 @@
 import React from 'react'
 import { add } from '#logic/math'
-import { Box, Button, Typography } from '@mui/material'
+import Box from '#mui/Box'
+import Typography from '#mui/Typography'
+import Button from '#mui/Button'
+import AcUnitIcon from '#mui-icons/AcUnit'
 
 export function Main() {
     return (
@@ -10,6 +13,7 @@ export function Main() {
             <Button variant='contained' color='primary'>
                 Click me!
             </Button>
+            <AcUnitIcon />
         </Box>
     )
 }
